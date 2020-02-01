@@ -19,6 +19,14 @@ nav {
   height: 50px;
 }
 
+nav a {
+  padding: 30px;
+  font-family: 'Anton', sans-serif;
+  color: #66fcf1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 header {
   margin-top: 100px;
   color: white;
@@ -32,18 +40,6 @@ header img {
   width: 150px;
   border: 5px white solid;
   border-radius: 20px;
-}
-
-nav a {
-  padding: 30px;
-  font-family: 'Anton', sans-serif;
-  color: #66fcf1;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-h3 {
-  color: white;
 }
 
 main {
