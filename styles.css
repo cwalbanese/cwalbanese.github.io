@@ -1,72 +1,106 @@
-nav {
-    position: fixed;
-    top: 0;
-    background: black;
-    width: 100%;
-    margin-bottom: 0;
-    height: 25px;
-}
-
-body {
-    margin: 0;
-}
-
-a {
-    padding: 30px;
-    font-family: 'Anton', sans-serif;
-    color: #777777;
-}
-
-p {
-    margin-left: 40px;
-    margin-right: 30px;
-}
-
-header {
-    background-image: url("images/backsplash.jpg");
-    background-color: black;
-    background-size: 100%;
-    height: 425px;
-    width: 100%;
-    margin-top: 0;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0 auto;
-}
-
-h1, h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
-}
-
-h3 {
-    
-    color: white;
-}
-
-main {
-    font-family: 'Anton', sans-serif;
-    margin-bottom: 30px;
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    background: #777777;
+  background-image: url('images/backsplash.jpg');
+  background-size: cover;
 }
 
-img {
-    float: left;
-    border-radius: 20px;
-    width: 300px;
-    padding: 10px;
-    margin-left: 30px;
-    margin-top: 30px;
+nav {
+  position: fixed;
+  top: 0;
+  background: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  height: 50px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+header {
+  margin-top: 100px;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
+header img {
+  width: 150px;
+  border: 5px white solid;
+  border-radius: 20px;
+}
+
+nav a {
+  padding: 30px;
+  font-family: 'Anton', sans-serif;
+  color: #66fcf1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h3 {
+  color: white;
+}
+
+main {
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 30px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  color: white;
+  border: 5px solid #66fcf1;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.project h2 {
+  color: #66fcf1;
+}
+
+.project a {
+  color: white;
+}
+
+.project img {
+  width: 300px;
+}
+
+.about {
+  color: white;
+  border: 5px solid #66fcf1;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.75);
+  width: 50%;
+}
+
+.about h2 {
+  color: #66fcf1;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 12px;
+    padding: 21px;
   }
+  main {
+    display: grid;
+  }
+
+  .about {
+    margin: 0 auto;
+  }
+
+  .project {
+    margin: 10px;
+  }
+}
