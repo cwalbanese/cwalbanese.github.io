@@ -60,6 +60,7 @@ main {
   border-radius: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
+  margin: 20px;
 }
 
 .project h2 {
@@ -98,9 +99,5 @@ main {
 
   .about {
     margin: 0 auto;
-  }
-
-  .project {
-    margin: 10px;
   }
 }
