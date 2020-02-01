@@ -82,6 +82,7 @@ main {
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
   width: 50%;
+  margin: 20px;
 }
 
 .about h2 {
