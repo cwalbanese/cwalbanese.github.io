@@ -45,8 +45,8 @@ main {
   font-family: 'Lato', sans-serif;
   margin-bottom: 30px;
   color: black;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project {
@@ -54,6 +54,12 @@ main {
   background: rgba(0, 0, 0, 0.75);
   margin: 20px;
   padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.project-right {
+  justify-self: right;
 }
 
 .project h2 {
@@ -62,16 +68,20 @@ main {
 
 .project a {
   color: white;
+  font-size: 14px;
 }
 
 .project img {
   width: 300px;
 }
 
+.project img:hover {
+  opacity: 0.5;
+}
+
 .about {
   color: white;
-
-  /* border-radius: 20px; */
+  border-radius: 10px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
   width: 50%;
@@ -89,9 +99,14 @@ main {
   }
   main {
     display: grid;
+    grid-template-columns: 1fr;
   }
 
   .about {
     margin: 0 auto;
+  }
+
+  .project-right {
+    justify-self: normal;
   }
 }
