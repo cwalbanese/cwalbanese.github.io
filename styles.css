@@ -96,6 +96,10 @@ main {
   color: white;
 }
 
+.about-picture img {
+  border-radius: 10px;
+}
+
 @media (max-width: 600px) {
   nav a {
     font-size: 12px;
