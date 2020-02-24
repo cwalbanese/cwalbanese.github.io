@@ -37,8 +37,8 @@ header {
 
 header img {
   width: 150px;
-  border: 2px white solid;
-  border-radius: 20px;
+  border: black 5px solid;
+  border-radius: 50%;
 }
 
 main {
@@ -51,11 +51,9 @@ main {
 
 .project {
   color: white;
-  border: 5px solid white;
-  border-radius: 20px;
-  padding: 20px;
   background: rgba(0, 0, 0, 0.75);
   margin: 20px;
+  padding: 30px;
 }
 
 .project h2 {
@@ -72,7 +70,7 @@ main {
 
 .about {
   color: white;
-  border: 5px solid #white
+
   border-radius: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
@@ -81,7 +79,7 @@ main {
 }
 
 .about h2 {
-  color: #66fcf1;
+  color: white;
 }
 
 @media (max-width: 600px) {
