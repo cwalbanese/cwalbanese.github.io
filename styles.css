@@ -21,7 +21,7 @@ nav {
 
 nav a {
   padding: 30px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -42,7 +42,7 @@ header img {
 }
 
 main {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-bottom: 30px;
   color: black;
   display: flex;
