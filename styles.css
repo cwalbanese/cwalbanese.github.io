@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url('images/backsplash.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
 }
 
@@ -22,15 +22,14 @@ nav {
 nav a {
   padding: 30px;
   font-family: 'Anton', sans-serif;
-  color: #66fcf1;
+  color: white;
   text-decoration: none;
   font-size: 18px;
 }
 
 header {
   margin-top: 100px;
-  color: #66fcf1;
-  background: rgba(0, 0, 0, 0.75);
+  color: white;
   text-align: center;
   font-family: 'Baloo Bhai', sans-serif;
   font-size: 30px;
@@ -52,7 +51,7 @@ main {
 
 .project {
   color: white;
-  border: 5px solid #66fcf1;
+  border: 5px solid white;
   border-radius: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
@@ -73,7 +72,7 @@ main {
 
 .about {
   color: white;
-  border: 5px solid #66fcf1;
+  border: 5px solid #white
   border-radius: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.75);
