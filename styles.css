@@ -15,11 +15,10 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 0;
-  height: 50px;
 }
 
 nav a {
-  padding: 30px;
+  padding: 15px;
   font-family: 'Lato', sans-serif;
   color: white;
   text-decoration: none;
@@ -100,18 +99,17 @@ main {
 @media (max-width: 600px) {
   nav a {
     font-size: 12px;
-    padding: 21px;
   }
 }
 
 @media (max-width: 800px) {
   main {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
   }
 
   .project {
-    justify-self: center;
+    margin: 0 auto;
+    margin-top: 10px;
   }
 }
 
