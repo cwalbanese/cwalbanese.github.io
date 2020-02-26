@@ -90,6 +90,7 @@ main {
 
 .about h2 {
   color: black;
+  margin-bottom: 20px;
 }
 
 .about-picture img {
