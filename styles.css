@@ -82,6 +82,11 @@ main {
   width: 300px;
 }
 
+.project img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
 .about {
   color: white;
   border-radius: 10px;
