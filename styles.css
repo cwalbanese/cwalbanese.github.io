@@ -102,17 +102,16 @@ main {
     font-size: 12px;
     padding: 21px;
   }
+}
+
+@media (max-width: 800px) {
   main {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .about {
-    margin: 0 auto;
-  }
-
-  .project-right {
-    justify-self: normal;
+  .project {
+    justify-self: center;
   }
 }
 
