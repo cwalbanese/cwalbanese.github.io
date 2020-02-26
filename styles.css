@@ -4,15 +4,13 @@
 }
 
 html {
-  /* background-image: url('images/background.jpg');
-  background-size: cover; */
-  background-color: lightblue;
+  background-color: #77e0fe;
 }
 
 nav {
   position: fixed;
   top: 0;
-  background: lightblue;
+  background: #35b3fd;
   width: 100%;
   display: flex;
   align-items: center;
@@ -78,10 +76,6 @@ main {
 
 .project img {
   width: 300px;
-}
-
-.project img:hover {
-  opacity: 0.5;
 }
 
 .about {
