@@ -53,7 +53,7 @@ main {
 
 .project {
   color: black;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(53, 179, 253, 0.25);
   margin: 20px;
   padding: 30px;
   border-radius: 10px;
@@ -81,7 +81,7 @@ main {
   color: black;
   border-radius: 10px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(53, 179, 253, 0.25);
   width: 50%;
   margin: 20px;
   justify-self: right;
