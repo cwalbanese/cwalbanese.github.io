@@ -87,7 +87,7 @@ main {
   border-radius: 10px;
   padding: 20px;
   background: rgba(6, 13, 59);
-  width: 50%;
+  width: 300px;
   margin: 20px;
   justify-self: right;
 }
@@ -99,6 +99,7 @@ main {
 
 .about-picture img {
   border-radius: 10px;
+  width: 350px;
 }
 
 .about-main {
