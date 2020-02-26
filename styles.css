@@ -115,3 +115,20 @@ main {
     justify-self: normal;
   }
 }
+
+@media (max-width: 975px) {
+  .about-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about-picture img {
+    width: 50%;
+  }
+  .about-picture {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .about {
+    margin: 0 auto;
+  }
+}
