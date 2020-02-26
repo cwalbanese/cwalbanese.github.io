@@ -4,16 +4,15 @@
 }
 
 html {
-  background-image: url('images/background.jpg');
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  /* background-image: url('images/background.jpg');
+  background-size: cover; */
+  background-color: lightblue;
 }
 
 nav {
   position: fixed;
   top: 0;
-  background: black;
+  background: lightblue;
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-  color: blue;
+  color: black;
 }
 
 header {
@@ -43,7 +42,7 @@ header {
 
 header img {
   width: 150px;
-  border: black 3px solid;
+  border: white 3px solid;
   border-radius: 50%;
 }
 
@@ -56,8 +55,8 @@ main {
 }
 
 .project {
-  color: white;
-  background: rgba(0, 0, 0, 0.75);
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
   margin: 20px;
   padding: 30px;
   border-radius: 10px;
@@ -69,11 +68,11 @@ main {
 }
 
 .project h2 {
-  color: white;
+  color: black;
 }
 
 .project a {
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
@@ -86,17 +85,17 @@ main {
 }
 
 .about {
-  color: white;
+  color: black;
   border-radius: 10px;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0.5);
   width: 50%;
   margin: 20px;
   justify-self: right;
 }
 
 .about h2 {
-  color: white;
+  color: black;
 }
 
 .about-picture img {
