@@ -149,17 +149,9 @@ footer p {
 }
 
 @media (max-width: 650px) {
-  nav a {
-    font-size: 10px;
-    margin: 0;
-    padding: 10px;
-  }
-
   nav {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
     text-align: center;
+    display: inline-block;
   }
   header {
     text-align: center;
