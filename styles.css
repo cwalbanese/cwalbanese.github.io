@@ -65,14 +65,15 @@ header img {
 }
 
 #about,
-#projects {
+#projects,
+#skills {
   font-family: 'Lato', sans-serif;
   color: black;
   background: #fff;
   padding: 20px;
 }
 
-.projects-title {
+.title {
   border-left: solid 5px #0dd9d9;
   font-size: 44px;
   padding-left: 10px;
@@ -113,16 +114,13 @@ header img {
   transition: 0.3s ease-in-out;
 }
 
-.about-title {
-  border-left: solid 5px #0dd9d9;
-  font-size: 44px;
-  padding-left: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.about,
+#skills {
+  font-size: 28px;
 }
 
-.about {
-  font-size: 28px;
+#skills p {
+  padding-bottom: 50px;
 }
 
 .employment {
@@ -147,7 +145,7 @@ footer {
 }
 
 footer p {
-  padding: 20px;
+  padding: 25px;
 }
 
 @media (max-width: 600px) {
