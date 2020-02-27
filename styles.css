@@ -10,11 +10,11 @@ html {
 nav {
   position: fixed;
   top: 0;
-  background: #060d3b;
+  background: #030c40;
   width: 100%;
-  margin-bottom: 0;
-  text-align: center;
-  padding: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a {
@@ -23,51 +23,75 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  margin-right: 10px;
 }
 
 nav a:hover {
-  color: #80a7bf;
+  color: #0dd9d9;
   transition: all ease 500ms;
 }
 
-header {
+.header-background {
+  background: url(/images/backsplash.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -4;
+}
+
+.header-content {
   color: white;
-  text-align: center;
   font-family: 'Lalezar', sans-serif;
   font-size: 30px;
-  background: url(images/backsplash.jpg);
-  width: 760px;
-  margin: 0 auto;
-  margin-top: 100px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  background: var(--overlay);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header img {
   width: 150px;
-  border: white 3px solid;
+  border: #0dd9d9 3px solid;
   border-radius: 50%;
 }
 
-main {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 30px;
-  color: black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.lastname {
+  color: #0dd9d9;
 }
 
+#about,
+#projects {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  background: #fff;
+  padding: 20px;
+}
+
+.projects-title {
+  border-left: solid 5px #0dd9d9;
+  font-size: 44px;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-content {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
 .project {
   color: white;
   background: rgba(6, 13, 59);
-  margin: 20px;
   padding: 30px;
   border-radius: 10px;
   width: 300px;
-}
-
-.project-right {
-  justify-self: right;
+  margin-right: 20px;
 }
 
 .project h2 {
@@ -88,28 +112,30 @@ main {
   transition: 0.3s ease-in-out;
 }
 
+.about-title {
+  border-left: solid 5px #0dd9d9;
+  font-size: 44px;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .about {
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-  background: rgba(6, 13, 59);
-  width: 300px;
-  margin: 20px;
-  justify-self: right;
+  font-size: 28px;
 }
 
-.about h2 {
-  color: white;
-  margin-bottom: 20px;
+.employment {
+  color: #0dd9d9;
 }
 
-.about-picture img {
-  border-radius: 10px;
-  width: 350px;
+.connect a {
+  text-decoration: none;
+  color: black;
 }
 
-.about-main {
-  padding: 20px;
+.connect a:hover {
+  color: #0dd9d9;
+  transition: all ease 500ms;
 }
 
 @media (max-width: 600px) {

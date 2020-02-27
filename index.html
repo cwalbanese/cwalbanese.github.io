@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Chris Albanese - Software Engineer</title>
+    <title>
+      Chris Albanese - Software Engineer
+    </title>
     <link href="styles.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
@@ -16,30 +18,34 @@
     />
   </head>
   <body>
-    <div class="page">
-      <nav>
-        <a href="index.html">projects</a>
-        <a href="about.html">about</a>
-        <a href="https://www.linkedin.com/in/chris-albanese/" target="_blank"
-          >linkedin</a
-        >
-        <a href="https://github.com/cwalbanese" target="_blank">github</a>
-        <a href="mailto:cwalbanese@gmail.com">email</a>
-      </nav>
-      <header>
-        <h1>CHRIS ALBANESE</h1>
+    <nav>
+      <a href="#projects">PROJECTS</a>
+      <a href="#about">ABOUT</a>
+      <a href="https://www.linkedin.com/in/chris-albanese/" target="_blank"
+        >LINKEDIN</a
+      >
+      <a href="https://github.com/cwalbanese" target="_blank">GITHUB</a>
+      <a href="mailto:cwalbanese@gmail.com">EMAIL</a>
+    </nav>
+    <header>
+      <div class="header-background"></div>
+      <div class="header-content">
+        <h1>CHRIS <span class="lastname">ALBANESE</span></h1>
         <h2>New York Web Developer</h2>
         <img src="images/profile.jpg" alt="profile picture" />
-      </header>
-      <main>
-        <div class="project project-right">
-          <a href="https://cwalbanese.github.io/cars-trivia/" target="_blank"
-            ><img src="images/preview1.png" alt="project preview"
+      </div>
+    </header>
+    <section id="projects">
+      <h2 class="projects-title">PROJECTS</h2>
+      <div class="projects-content">
+        <div class="project">
+          <a href="https://portfoliorater.herokuapp.com/" target="_blank"
+            ><img src="images/preview3.png" alt="project preview"
           /></a>
-          <h2>Project 1</h2>
-          <p>Technology: HTML, CSS, JavaScript</p>
-          <a href="https://cwalbanese.github.io/cars-trivia/" target="_blank"
-            >https://cwalbanese.github.io/cars-trivia/</a
+          <h2>Portfolio Rater</h2>
+          <p>Technology: NodeJS, ReactJS, MongoDB</p>
+          <a href="https://portfoliorater.herokuapp.com/" target="_blank"
+            >https://portfoliorater.herokuapp.com/</a
           >
         </div>
         <div class="project">
@@ -48,7 +54,7 @@
             target="_blank"
             ><img src="images/preview2.png" alt="project preview"
           /></a>
-          <h2>Project 2</h2>
+          <h2>Thirsty</h2>
           <p>Technology: ReactJS</p>
           <a
             href="https://thirsty-brewery-search.herokuapp.com/"
@@ -56,17 +62,53 @@
             >https://thirsty-brewery-search.herokuapp.com/</a
           >
         </div>
-        <div class="project project-right">
-          <a href="https://portfoliorater.herokuapp.com/" target="_blank"
-            ><img src="images/preview3.png" alt="project preview"
+        <div class="project">
+          <a href="https://cwalbanese.github.io/cars-trivia/" target="_blank"
+            ><img src="images/preview1.png" alt="project preview"
           /></a>
-          <h2>Project 3</h2>
-          <p>Technology: NodeJS, ReactJS, MongoDB</p>
-          <a href="https://portfoliorater.herokuapp.com/" target="_blank"
-            >https://portfoliorater.herokuapp.com/</a
+          <h2>Car Trivia</h2>
+          <p>Technology: HTML, CSS, JavaScript</p>
+          <a href="https://cwalbanese.github.io/cars-trivia/" target="_blank"
+            >https://cwalbanese.github.io/cars-trivia/</a
           >
         </div>
-      </main>
-    </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2 class="about-title">ABOUT ME</h2>
+      <div class="about">
+        <p>
+          Hi! I'm Chris, a New York based software engineer.
+        </p>
+        <br />
+        <p>
+          I am experienced in full stack web development. My skills allow me to
+          solve complex programming problems presented on the job.
+        </p>
+        <br />
+        <p>
+          I also love technology, whether it be computers or with my prior
+          experience in the automotive industry. I'm passionate to know how
+          things work, how to build them, and how to fix them, this is what
+          drives me.
+        </p>
+        <br />
+        <p>
+          My technical problem solving mindset has been an asset to me at any
+          position, both on a team and in leadership roles.
+        </p>
+        <br />
+        <p class="employment">
+          I am currently open to employment opportunities.
+        </p>
+        <br />
+        <p class="connect">
+          Let's connect: <a href="mailto:cwalbanese@gmail.com">Email me!</a> or
+          <a href="https://www.linkedin.com/in/chris-albanese/" target="_blank"
+            >Visit my LinkedIn!</a
+          >
+        </p>
+      </div>
+    </section>
   </body>
 </html>
