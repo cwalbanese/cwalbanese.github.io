@@ -139,14 +139,25 @@ header img {
   transition: all ease 500ms;
 }
 
+footer {
+  background: #030c40;
+  width: 100%;
+  color: #0dd9d9;
+  font-family: 'Lato', sans-serif;
+}
+
+footer p {
+  padding: 20px;
+}
+
 @media (max-width: 600px) {
   nav a {
     font-size: 10px;
     margin: 0;
+    padding: 15px;
   }
 
   nav {
-    display: block;
     padding: 0;
     margin: 0;
     width: 100vw;
