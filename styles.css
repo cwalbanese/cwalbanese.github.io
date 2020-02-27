@@ -141,6 +141,14 @@ header img {
 @media (max-width: 600px) {
   nav a {
     font-size: 12px;
+    margin: 0;
+  }
+
+  nav {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
 }
 
