@@ -88,10 +88,11 @@ header img {
 .project {
   color: white;
   background: rgba(6, 13, 59);
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   width: 300px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .project h2 {
@@ -140,46 +141,18 @@ header img {
 
 @media (max-width: 600px) {
   nav a {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
   }
 
   nav {
-    display: inline;
+    display: block;
     padding: 0;
     margin: 0;
+    width: 100vw;
     text-align: center;
   }
-}
-
-@media (max-width: 800px) {
-  main {
-    display: block;
-  }
-
   header {
-    width: 75vw;
-  }
-
-  .project {
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 975px) {
-  .about-main {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .about-picture img {
-    width: 50%;
-  }
-  .about-picture {
     text-align: center;
-    margin-top: 20px;
-  }
-  .about {
-    margin: 0 auto;
   }
 }
