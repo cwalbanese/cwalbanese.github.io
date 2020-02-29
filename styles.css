@@ -15,6 +15,7 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 nav a {
@@ -148,11 +149,11 @@ footer p {
   padding: 25px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   nav {
-    text-align: center;
     display: inline-block;
   }
+
   header {
     text-align: center;
   }
