@@ -70,6 +70,10 @@ header img {
   border-radius: 50%;
 }
 
+header {
+  text-align: center;
+}
+
 .lastname {
   color: #0dd9d9;
 }
@@ -170,10 +174,4 @@ footer {
 
 footer p {
   padding: 25px;
-}
-
-@media (max-width: 750px) {
-  header {
-    text-align: center;
-  }
 }
