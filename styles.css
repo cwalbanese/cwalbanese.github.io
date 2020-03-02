@@ -153,7 +153,7 @@ header {
   color: black;
   text-decoration: none;
   font-size: 30px;
-  margin-right: 59px;
+  margin-right: 60px;
 }
 
 #contact a:hover {
@@ -174,4 +174,10 @@ footer {
 
 footer p {
   padding: 25px;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    display: grid;
+  }
 }
