@@ -37,9 +37,14 @@ nav a {
   cursor: pointer;
 }
 
-nav a:hover {
+nav a:hover,
+.project a:hover {
   color: #0dd9d9;
   transition: all ease 500ms;
+}
+
+.project a {
+  text-decoration: none;
 }
 
 .header-background {
