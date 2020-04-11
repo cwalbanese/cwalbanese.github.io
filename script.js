@@ -1,6 +1,7 @@
 const menuButton = document.querySelector('.menu');
 const nav = document.querySelector('.navBar');
 const navLinks = document.querySelector('.navLink');
+const header = document.querySelector('.box-wrapper');
 
 toggleMenu = () => {
   if (nav.style.height != '400px') {
@@ -15,3 +16,7 @@ toggleMenu = () => {
 
 menuButton.addEventListener('click', toggleMenu);
 navLinks.addEventListener('click', toggleMenu);
+
+setTimeout(function () {
+  header.classList.remove('loading');
+}, 600);

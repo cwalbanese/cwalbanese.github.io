@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   background-color: white;
 }
@@ -80,6 +84,21 @@ header {
   text-align: center;
 }
 
+.box-wrapper {
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
+}
+
+.box-wrapper.loading:nth-child(odd) {
+  transform: translate(100%);
+}
+.box-wrapper.loading:nth-child(even) {
+  transform: translate(-100%);
+}
+
+.box {
+  margin: auto;
+}
 .lastname {
   color: #0dd9d9;
 }
