@@ -36,6 +36,10 @@ nav a {
   margin-right: 10px;
 }
 
+.navBar {
+  transition-duration: 600ms;
+}
+
 .menu {
   margin-left: 50px;
   cursor: pointer;
@@ -85,7 +89,6 @@ header {
 }
 
 .box-wrapper {
-  -webkit-transition-duration: 600ms;
   transition-duration: 600ms;
 }
 

@@ -4,13 +4,14 @@ const navLinks = document.querySelector('.navLink');
 const header = document.querySelector('.box-wrapper');
 
 toggleMenu = () => {
-  if (nav.style.height != '400px') {
-    nav.style.height = '400px';
-    nav.style.display = 'grid';
-    navLinks.style.visibility = 'visible';
+  if (nav.style.height != '360px') {
+    nav.style.height = '360px';
+    setTimeout(function () {
+      navLinks.style.visibility = 'visible';
+    }, 600);
   } else {
-    nav.style.height = '50px';
     navLinks.style.visibility = 'hidden';
+    nav.style.height = '50px';
   }
 };
 
