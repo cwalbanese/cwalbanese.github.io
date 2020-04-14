@@ -22,13 +22,8 @@ setTimeout(function () {
   header.classList.remove('loading');
 }, 600);
 
-let elements;
-let windowHeight;
-
-function init() {
-  elements = document.querySelectorAll('.hidden');
-  windowHeight = window.innerHeight;
-}
+elements = document.querySelectorAll('.hidden');
+windowHeight = window.innerHeight;
 
 function checkPosition() {
   for (let i = 0; i < elements.length; i++) {
@@ -45,5 +40,4 @@ function checkPosition() {
 window.addEventListener('scroll', checkPosition);
 window.addEventListener('resize', init);
 
-init();
 checkPosition();
