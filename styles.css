@@ -157,6 +157,23 @@ header {
   transition: 0.3s ease-in-out;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.projects-animation {
+  animation: fadeIn 5s;
+}
+
 .about,
 #skills {
   font-size: 28px;
