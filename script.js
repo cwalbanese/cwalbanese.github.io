@@ -4,8 +4,8 @@ const navLinks = document.querySelector('.navLink');
 const header = document.querySelector('.box-wrapper');
 
 toggleMenu = () => {
-  if (nav.style.height != '360px') {
-    nav.style.height = '360px';
+  if (nav.style.height != '420px') {
+    nav.style.height = '420px';
     setTimeout(function () {
       navLinks.style.visibility = 'visible';
     }, 600);
