@@ -157,7 +157,16 @@ header {
   transition: 0.3s ease-in-out;
 }
 
-@keyframes fadeIn {
+@keyframes slideUp {
+  0% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes fade {
   0% {
     opacity: 0;
   }
@@ -166,12 +175,8 @@ header {
   }
 }
 
-.hidden {
-  opacity: 0;
-}
-
 .projects-animation {
-  animation: fadeIn 2s;
+  animation: slideUp 0.5s;
 }
 
 .about,
@@ -183,6 +188,34 @@ header {
   color: #0dd9d9;
 }
 
+.employment:hover {
+  text-decoration: underline black;
+  transition: all ease 1s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 .connect a {
   text-decoration: none;
   color: black;
@@ -191,6 +224,47 @@ header {
 .connect a:hover {
   color: #0dd9d9;
   transition: all ease 500ms;
+}
+
+.skill {
+  background-color: #030c40;
+  height: 175px;
+  width: 175px;
+  color: white;
+  display: grid;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.skill:hover {
+  animation: shake 1s;
+}
+
+.skill-logo {
+  margin-top: 20px;
+  margin: 20px auto 0 auto;
+}
+
+.skill-name {
+  margin: 0 auto;
+}
+
+.skills-front,
+.skills-back,
+.skills-other {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-animation {
+  animation: fade 2s;
+}
+
+.loaded {
+  animation: fade 0s;
 }
 
 #contact a {
@@ -224,5 +298,12 @@ footer p {
 @media (max-width: 600px) {
   .contact {
     display: grid;
+  }
+  .skill {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .skill-category {
+    text-align: center;
   }
 }
